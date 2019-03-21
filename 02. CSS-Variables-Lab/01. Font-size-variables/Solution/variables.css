@@ -1,0 +1,17 @@
+:root {
+    --h3-size: 20px;
+    --h1-size: 30px;
+    --p-size: 16px;
+}
+
+h1 {
+    var(--h1-size);
+}
+
+h3 {
+    var(--h3-size);
+}
+
+p {
+    var(--p-size);
+}
