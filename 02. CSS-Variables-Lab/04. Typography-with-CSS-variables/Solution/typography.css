@@ -1,0 +1,22 @@
+body{
+    padding-left:1rem;
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        font-size: var(--small-font);
+    }
+}
+
+
+@media screen and (min-width: 700px) {
+    body {
+        font-size: var(--medium-font);
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    body {
+        font-size: var(--large-font);
+    }
+}

@@ -1,0 +1,16 @@
+:root {
+    --headings-font: "PT Serif", serif ;
+    --main-font: "PT Sans", serif;
+}
+
+html{
+    font-family: var(--main-font);
+}
+
+article header{
+    text-align: center;
+}
+
+h1, h2, h3, h4{
+    font-family: var(--headings-font);
+}
