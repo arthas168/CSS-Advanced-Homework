@@ -13,4 +13,4 @@ Problems for in-class lab for the [“CSS Advanced”](https://softuni.bg/traini
     * for primary color use #275468
     * for alternative yellow color use #FFC701
     * for white use #ffffff
-* Style the page and type the css in the **layout.css** file. Use the **variables** to set the colors
+* Style the page and type the css in the **layout.css** file. Use the **variables** to set the col  ors
