@@ -1,1 +1,101 @@
-@import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li i {
+    margin-right: 0.5em;
+}
+
+ul li {
+    margin-bottom: 1em;
+    list-style: none;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+ul li:nth-child(1) {
+    position: relative;
+    opacity: 0;
+    animation-name: list-animation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+ul li:nth-child(2) {
+    position: relative;
+    opacity: 0;
+    animation-name: list-animation;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+ul li:nth-child(3) {
+    position: relative;
+    opacity: 0;
+    animation-name: list-animation;
+    animation-duration: 1s;
+    animation-delay: calc(0.3s * 2);
+    animation-fill-mode: forwards;
+}
+
+ul li:nth-child(4) {
+    position: relative;
+    opacity: 0;
+    animation-name: list-animation;
+    animation-duration: 1s;
+    animation-delay: calc(0.3s * 3);
+    animation-fill-mode: forwards;
+}
+
+ul li:nth-child(5) {
+    position: relative;
+    opacity: 0;
+    animation-name: list-animation;
+    animation-duration: 1s;
+    animation-delay: calc(0.3s * 4);
+    animation-fill-mode: forwards;
+}
+
+ul li:nth-child(6) {
+    position: relative;
+    opacity: 0;
+    animation-name: list-animation;
+    animation-duration: 1s;
+    animation-delay: calc(0.3s * 5);
+    animation-fill-mode: forwards;
+}
+
+ul li:nth-child(7) {
+    position: relative;
+    opacity: 0;
+    animation-name: list-animation;
+    animation-duration: 1s;
+    animation-delay: calc(0.3s * 6);
+    animation-fill-mode: forwards;
+}
+
+@keyframes list-animation {
+    0% {
+        left: -5rem;
+        opacity: 0;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}

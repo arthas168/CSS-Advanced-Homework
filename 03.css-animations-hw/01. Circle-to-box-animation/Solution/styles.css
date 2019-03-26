@@ -4,8 +4,8 @@
     background-color:orange;
 }
 
+/*how to center things FINALLY*/
 .form {
-
     position:absolute; /*it can be fixed too*/
     left:0; right:0;
     top:0; bottom:0;
@@ -21,7 +21,6 @@
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     animation-duration: 1.8s;
-
 }
 
 @keyframes example {

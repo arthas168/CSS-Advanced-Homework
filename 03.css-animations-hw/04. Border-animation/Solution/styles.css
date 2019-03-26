@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: #E8EAEE;
+}
+
+section {
+    display: inline-block;
+
+    padding: 10rem;
+    margin: 10rem auto;
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    background: #FFF;
+    color: #2D313A;
+    font-weight: bold;
+    letter-spacing: 1px;
+    outline: 5px solid #203F5D;
+    padding: 1rem;
+    margin-right: 0.7rem;
+    transition: outline-width 0.7s ease-in-out;
+}
+
+.button:hover {
+    outline-width: 10px;
+}
